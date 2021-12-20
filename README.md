@@ -1,4 +1,3 @@
-# DashApp
 import numpy as np
 import struct
 import pandas as pd
@@ -74,8 +73,8 @@ def read_pc2(path,number = 0):
 # df = read_pc2(r'C:\files\KLA0057Animation_stabilised.pc2', 1)
 #Frames start with 0
 
-Frame_one = 0
-Frame_two = 71
+Frame_one = 71
+Frame_two = 0
 df = read_pc2(r'C:\files\KLA0057Animation_stabilised.pc2', Frame_one)
 df2 = read_pc2(r'C:\files\KLA0057Animation_stabilised.pc2', Frame_two)
 
